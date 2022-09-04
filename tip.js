@@ -21,6 +21,7 @@ const send = async function (amount) {
       ],
     });
   }
+};
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -31,6 +32,5 @@ form.addEventListener("submit", function (e) {
   } else {
     document.getElementById("box");
     form.textContent = "Please install a metamask wallet";
-   
   }
 });
