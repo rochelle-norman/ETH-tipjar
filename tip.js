@@ -30,7 +30,6 @@ form.addEventListener("submit", function (e) {
     const input = form.querySelector("input");
     send(input.value);
   } else {
-    document.getElementById("box");
     form.textContent = "Please install a metamask wallet";
   }
 });
